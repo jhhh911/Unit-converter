@@ -1,0 +1,60 @@
+/* * {
+  border: 1px solid red;
+} */
+
+body {
+  margin: 0 5px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#conversion-container {
+  background-color: #0466c8;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+#input-number {
+  background-color: transparent;
+  border: 1px solid #778da9;
+  width: 110px;
+  height: 70px;
+  color: white;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 50px;
+  border-radius: 5px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+#convert-btn {
+  margin-bottom: 25px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#measurements {
+  background-color: #a2d2ff;
+  height: 100%;
+  padding: 40px 20px;
+}
+
+#length,
+#volume,
+#mass {
+  width: 90%;
+  background-color: white;
+  margin: 20px auto;
+  padding: 20px;
+  
+}
+
+#output h2 {
+  color: rgb(79, 79, 121);
+}
